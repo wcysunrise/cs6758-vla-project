@@ -1,0 +1,14 @@
+{
+  "episodes": 5,
+  "failures": 0,
+  "infrastructure_errors": 0,
+  "mean_episode_steps": 165,
+  "mean_inference_seconds": 0.8497642133333333,
+  "mean_runtime_seconds": 180.8975574,
+  "policy_inference_calls": 825,
+  "scope": "one task; small pilot, not a suite-level result",
+  "status": "completed",
+  "success_rate": 1.0,
+  "successes": 5,
+  "total_policy_inference_seconds": 701.055476
+}

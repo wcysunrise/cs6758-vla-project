@@ -1,0 +1,15 @@
+2026-10-14 19:57:58,670 INFO PREFLIGHT {"architecture": "x86_64", "blockers": [], "compute_capability": [7, 0], "cuda_arch_list": ["sm_50", "sm_60", "sm_70", "sm_75", "sm_80", "sm_86", "sm_90"], "cuda_available": true, "cuda_matmul_passed": true, "disk": {"free_bytes": 95141756928, "total_bytes": 105089261568, "used_bytes": 9930727424}, "gpu": "Tesla V100-SXM2-16GB", "gpu_free_memory_bytes": 16246112256, "gpu_total_memory_bytes": 16928342016, "nvidia_smi": {"returncode": 0, "stderr": "", "stdout": "Tesla V100-SXM2-16GB, 580.178.04, 16384 MiB"}, "passed": true, "platform": "Linux", "python": "3.12.13", "torch_cuda": "12.6", "versions": {"hf-libero": "0.1.4", "lerobot": "0.5.1", "mujoco": "3.3.2", "numpy": "2.2.6", "robosuite": "1.4.0", "torch": "2.7.1+cu126", "torchcodec": "0.3.0", "torchvision": "0.22.1+cu126", "transformers": "5.3.0"}}
+Fetching 586 files:   0%|          | 0/586 [00:00<?, ?it/s]Fetching 586 files:  25%|██▌       | 147/586 [00:00<00:00, 1462.96it/s]Fetching 586 files:  56%|█████▌    | 329/586 [00:00<00:00, 1668.90it/s]Fetching 586 files:  87%|████████▋ | 508/586 [00:00<00:00, 1724.07it/s]Fetching 586 files: 100%|██████████| 586/586 [00:00<00:00, 1712.01it/s]
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 1364.16it/s]
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files: 100%|██████████| 8/8 [00:00<00:00, 1360.02it/s]
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+2026-10-14 19:57:59,284 WARNING No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+2026-10-14 19:57:59,284 WARNING It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /content/cs6758-vla-project/.venv/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+2026-10-14 19:57:59,284 WARNING To setup, run: python /content/cs6758-vla-project/.venv/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py
+2026-10-14 19:57:59,390 INFO No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Loading weights from local directory
+2026-10-14 19:58:38,326 INFO episode=6 seed=1005 initial_state=5
+2026-10-14 20:01:36,136 INFO completed episode=6 success=True steps=162 seconds=177.802042

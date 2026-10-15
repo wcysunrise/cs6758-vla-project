@@ -1,0 +1,6 @@
+{
+  "status": "Stopped",
+  "verified_at_utc": "2026-10-15T00:07:55Z",
+  "verification": "Google Cloud Console runtime details showed Stopped and Runtime was stopped. Results exported and SHA256 verified before stop.",
+  "runtime_deleted": false
+}

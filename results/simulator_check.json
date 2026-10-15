@@ -1,0 +1,24 @@
+{
+  "action_dimension": 7,
+  "bddl_sha256": "df088984da13131f8332ee0f13a7896c6a97afd02ee5007a42e8fc5e0893571e",
+  "control_frequency_hz": 20,
+  "controller_types": [
+    "OperationalSpaceController"
+  ],
+  "image_shapes": {
+    "agentview_image": [
+      256,
+      256,
+      3
+    ],
+    "robot0_eye_in_hand_image": [
+      256,
+      256,
+      3
+    ]
+  },
+  "instruction": "pick up the alphabet soup and place it in the basket",
+  "status": "passed",
+  "success": false,
+  "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket"
+}
