@@ -1,0 +1,16 @@
+# Target: Linux x86_64, CPython 3.12. Install torch CUDA wheels first (SETUP.md).
+# Validated on the Stage 1 V100 runtime; full resolved versions are in results/.
+lerobot[smolvla,libero]==0.5.1
+hf-libero==0.1.4
+torch==2.7.1
+torchvision==0.22.1
+torchcodec==0.3.0
+transformers==5.3.0
+mujoco==3.3.2
+robosuite==1.4.0
+robomimic==0.2.0
+bddl==1.0.1
+numpy==2.2.6
+PyYAML==6.0.2
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
