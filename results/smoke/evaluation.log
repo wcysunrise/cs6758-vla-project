@@ -1,0 +1,46 @@
+2026-10-14 19:57:03,669 INFO PREFLIGHT {"architecture": "x86_64", "blockers": [], "compute_capability": [7, 0], "cuda_arch_list": ["sm_50", "sm_60", "sm_70", "sm_75", "sm_80", "sm_86", "sm_90"], "cuda_available": true, "cuda_matmul_passed": true, "disk": {"free_bytes": 95141777408, "total_bytes": 105089261568, "used_bytes": 9930706944}, "gpu": "Tesla V100-SXM2-16GB", "gpu_free_memory_bytes": 16246112256, "gpu_total_memory_bytes": 16928342016, "nvidia_smi": {"returncode": 0, "stderr": "", "stdout": "Tesla V100-SXM2-16GB, 580.178.04, 16384 MiB"}, "passed": true, "platform": "Linux", "python": "3.12.13", "torch_cuda": "12.6", "versions": {"hf-libero": "0.1.4", "lerobot": "0.5.1", "mujoco": "3.3.2", "numpy": "2.2.6", "robosuite": "1.4.0", "torch": "2.7.1+cu126", "torchcodec": "0.3.0", "torchvision": "0.22.1+cu126", "transformers": "5.3.0"}}
+2026-10-14 19:57:04,264 WARNING No private macro file found!
+2026-10-14 19:57:04,264 WARNING It is recommended to use a private macro file
+2026-10-14 19:57:04,264 WARNING To setup, run: python /content/cs6758-vla-project/.venv/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py
+2026-10-14 19:57:04,371 INFO No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2026-10-14 19:57:15,044 ERROR BLOCKED: execution interrupted; completed CSV rows remain real results
+Traceback (most recent call last):
+  File "/content/cs6758-vla-project/scripts/run_baseline.py", line 453, in main
+    evaluate(cfg, out, args.smoke)
+  File "/content/cs6758-vla-project/scripts/run_baseline.py", line 347, in evaluate
+    pcfg = SmolVLAConfig.from_pretrained(str(snapshots["policy"]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/cs6758-vla-project/.venv/lib/python3.12/site-packages/lerobot/configs/policies.py", line 211, in from_pretrained
+    orig_config = draccus.parse(cls, config_file, args=[])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/cs6758-vla-project/.venv/lib/python3.12/site-packages/draccus/argparsing.py", line 211, in parse
+    return parser.parse_args(args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/cs6758-vla-project/.venv/lib/python3.12/site-packages/draccus/argparsing.py", line 102, in parse_args
+    args, _ = self.parse_known_args(args, namespace, is_parse_args=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/cs6758-vla-project/.venv/lib/python3.12/site-packages/draccus/argparsing.py", line 136, in parse_known_args
+    parsed_t = self._postprocessing(parsed_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/cs6758-vla-project/.venv/lib/python3.12/site-packages/draccus/argparsing.py", line 180, in _postprocessing
+    cfg = decoding.decode(self.config_class, deflat_d)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/cs6758-vla-project/.venv/lib/python3.12/site-packages/draccus/parsers/registry_utils.py", line 78, in wrapper
+    return base_func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/cs6758-vla-project/.venv/lib/python3.12/site-packages/draccus/parsers/decoding.py", line 48, in decode
+    return get_decoding_fn(cls)(raw_value, ())  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/cs6758-vla-project/.venv/lib/python3.12/site-packages/draccus/parsers/decoding.py", line 175, in decode_choice_class
+    return decode_dataclass(cls, raw_value)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/cs6758-vla-project/.venv/lib/python3.12/site-packages/draccus/parsers/decoding.py", line 149, in decode_dataclass
+    raise DecodingError(path, f"The fields {formatted_keys} are not valid for {stringify_type(cls)}")
+draccus.utils.DecodingError: The fields `type` are not valid for SmolVLAConfig
+2026-10-14 19:57:58,670 INFO PREFLIGHT {"architecture": "x86_64", "blockers": [], "compute_capability": [7, 0], "cuda_arch_list": ["sm_50", "sm_60", "sm_70", "sm_75", "sm_80", "sm_86", "sm_90"], "cuda_available": true, "cuda_matmul_passed": true, "disk": {"free_bytes": 95141756928, "total_bytes": 105089261568, "used_bytes": 9930727424}, "gpu": "Tesla V100-SXM2-16GB", "gpu_free_memory_bytes": 16246112256, "gpu_total_memory_bytes": 16928342016, "nvidia_smi": {"returncode": 0, "stderr": "", "stdout": "Tesla V100-SXM2-16GB, 580.178.04, 16384 MiB"}, "passed": true, "platform": "Linux", "python": "3.12.13", "torch_cuda": "12.6", "versions": {"hf-libero": "0.1.4", "lerobot": "0.5.1", "mujoco": "3.3.2", "numpy": "2.2.6", "robosuite": "1.4.0", "torch": "2.7.1+cu126", "torchcodec": "0.3.0", "torchvision": "0.22.1+cu126", "transformers": "5.3.0"}}
+2026-10-14 19:57:59,284 WARNING No private macro file found!
+2026-10-14 19:57:59,284 WARNING It is recommended to use a private macro file
+2026-10-14 19:57:59,284 WARNING To setup, run: python /content/cs6758-vla-project/.venv/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py
+2026-10-14 19:57:59,390 INFO No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2026-10-14 19:58:38,326 INFO episode=6 seed=1005 initial_state=5
+2026-10-14 20:01:36,136 INFO completed episode=6 success=True steps=162 seconds=177.802042

@@ -1,0 +1,17 @@
+{
+  "assets": {
+    "repo_id": "lerobot/libero-assets",
+    "repo_type": "dataset",
+    "revision": "0b3ea86be5fe169d0fd036ae63d1070ec09e90f6"
+  },
+  "backbone": {
+    "repo_id": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+    "repo_type": "model",
+    "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467"
+  },
+  "policy": {
+    "repo_id": "HuggingFaceVLA/smolvla_libero",
+    "repo_type": "model",
+    "revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102"
+  }
+}

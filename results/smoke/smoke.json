@@ -1,0 +1,38 @@
+{
+  "checkpoint_revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+  "config_sha256": "64a2667a6eaae143130734080fd566a2e713fc5910d7d3713d0faa0adcba98da",
+  "episode_id": 6,
+  "hub_revisions": {
+    "assets": {
+      "repo_id": "lerobot/libero-assets",
+      "repo_type": "dataset",
+      "revision": "0b3ea86be5fe169d0fd036ae63d1070ec09e90f6"
+    },
+    "backbone": {
+      "repo_id": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "repo_type": "model",
+      "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467"
+    },
+    "policy": {
+      "repo_id": "HuggingFaceVLA/smolvla_libero",
+      "repo_type": "model",
+      "revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102"
+    }
+  },
+  "initial_state_id": 5,
+  "mean_inference_seconds": 0.860912,
+  "phase": "smoke",
+  "policy_inference_calls": 162,
+  "policy_inference_seconds": 139.46771,
+  "runtime_seconds": 177.802042,
+  "seed": 1005,
+  "status": "completed",
+  "steps": 162,
+  "success": true,
+  "suite": "libero_object",
+  "task_id": 0,
+  "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+  "termination_reason": "success",
+  "video_file": "episode_006.mp4",
+  "video_sha256": "b3b89307cd755356819a9e8fc30e971c10851a1397effa0f44be46a56a854b77"
+}
