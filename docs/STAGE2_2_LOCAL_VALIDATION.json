@@ -1,0 +1,69 @@
+{
+  "build_seconds": 155.08582358399872,
+  "cloud_execution": "UNVERIFIED",
+  "cuda_v100": "UNVERIFIED",
+  "encoder": {
+    "architecture": "resnet18_avgpool",
+    "device": "cpu",
+    "dimension": 512,
+    "dtype": "float32",
+    "frozen": true,
+    "imagenet_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "imagenet_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "preprocessing": "native_opengl HWC uint8 RGB -> rotate180 -> tensor CHW -> resize256 bilinear antialias -> center_crop224 -> /255 -> ImageNet mean/std",
+    "seed": 6758,
+    "torch": "2.7.1",
+    "torchvision": "0.22.1",
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "weights_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth"
+  },
+  "environment": {
+    "device": "cpu",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.3.19.1)]"
+  },
+  "gcs_transfer": "UNVERIFIED",
+  "heldout_summary": {
+    "device": "cpu",
+    "heldout_trajectories": 10,
+    "interpretation": "Retrieval diagnostics only; no success rate or policy intervention",
+    "leaked_neighbors": 0,
+    "memory_entries": 6193,
+    "memory_sha256": "3101de1d81218b0d024b32b04bb6e171b0b1a72b37443c23fb3f485ac4d01fa7",
+    "queries": 1565,
+    "seconds": 35.80776450000121,
+    "state_weight": 1.0,
+    "visual": {
+      "mean_top1_action_absolute_error": 0.1010934993805829,
+      "mean_top1_cosine": 0.9880080113014855
+    },
+    "visual_state": {
+      "mean_top1_action_absolute_error": 0.0960647127860729,
+      "mean_top1_cosine": 0.9648515991128672
+    },
+    "visual_weight": 1.0
+  },
+  "memory_bytes": 11928136,
+  "memory_sha256": "3101de1d81218b0d024b32b04bb6e171b0b1a72b37443c23fb3f485ac4d01fa7",
+  "neighbor_action_identity_checks": 15650,
+  "notebook_validation": "nbformat schema and compilation of every code cell passed; not executed in cloud",
+  "policy_intervention": "NOT IMPLEMENTED",
+  "raw_observation_adapter": "Validated with a dictionary constructed from a real stored frame/state; no live simulator",
+  "simulator_success": "UNVERIFIED",
+  "stage1_and_stage2_1_tracked_files_unchanged": true,
+  "stage2_1_hdf5_hashes_unchanged": true,
+  "tests": {
+    "count": 28,
+    "log": "test_csv_rejects_duplicate_and_keeps_first_record (test_baseline.ProtocolTests.test_csv_rejects_duplicate_and_keeps_first_record) ... ok\ntest_invalid_protocol_is_rejected (test_baseline.ProtocolTests.test_invalid_protocol_is_rejected) ... ok\ntest_smoke_excluded_from_evaluation (test_baseline.ProtocolTests.test_smoke_excluded_from_evaluation) ... ok\ntest_smoke_gate_rejects_modified_video_or_config (test_baseline.ProtocolTests.test_smoke_gate_rejects_modified_video_or_config) ... ok\ntest_duplicate_trajectory_rejected (test_demonstrations.DemonstrationTests.test_duplicate_trajectory_rejected) ... ok\ntest_missing_modality_fails_or_quarantines (test_demonstrations.DemonstrationTests.test_missing_modality_fails_or_quarantines) ... ok\ntest_nan_length_dtype_and_short_episode_rejected (test_demonstrations.DemonstrationTests.test_nan_length_dtype_and_short_episode_rejected) ... ok\ntest_notebook_schema_and_python_cells (test_demonstrations.DemonstrationTests.test_notebook_schema_and_python_cells) ... ok\ntest_output_corruption_detected (test_demonstrations.DemonstrationTests.test_output_corruption_detected) ... ok\ntest_roundtrip_alignment_and_preservation (test_demonstrations.DemonstrationTests.test_roundtrip_alignment_and_preservation) ... ok\ntest_split_order_independent_and_disjoint (test_demonstrations.DemonstrationTests.test_split_order_independent_and_disjoint) ... ok\ntest_unverified_source_requires_explicit_opt_in (test_demonstrations.DemonstrationTests.test_unverified_source_requires_explicit_opt_in) ... ok\ntest_wrong_task_or_controller_rejected (test_demonstrations.DemonstrationTests.test_wrong_task_or_controller_rejected) ... ok\ntest_combination_dimensions_and_weighting (test_memory.FeatureTests.test_combination_dimensions_and_weighting) ... ok\ntest_raw_observation_conversion (test_memory.FeatureTests.test_raw_observation_conversion) ... ok\ntest_real_pretrained_encoder_frozen_deterministic (test_memory.FeatureTests.test_real_pretrained_encoder_frozen_deterministic) ... ok\ntest_train_statistics_and_constant_dimension (test_memory.FeatureTests.test_train_statistics_and_constant_dimension) ... ok\ntest_real_memory_training_only_exact_actions_and_statistics (test_memory.RealSplitTests.test_real_memory_training_only_exact_actions_and_statistics) ... ok\ntest_real_raw_observation_adapter_matches_dataset_query (test_memory.RealSplitTests.test_real_raw_observation_adapter_matches_dataset_query) ... ok\ntest_split_manifest_leakage_fails_before_encoding (test_memory.RealSplitTests.test_split_manifest_leakage_fails_before_encoding) ... ok\ntest_alignment_and_leakage_rejected (test_memory.SerializationTests.test_alignment_and_leakage_rejected) ... ok\ntest_corruption_and_statistics_rejected (test_memory.SerializationTests.test_corruption_and_statistics_rejected) ... ok\ntest_roundtrip (test_memory.SerializationTests.test_roundtrip) ... ok\ntest_invalid_queries (test_retrieval.RetrievalTests.test_invalid_queries) ... ok\ntest_stage2_notebook_valid (test_retrieval.RetrievalTests.test_stage2_notebook_valid) ... ok\ntest_ties_are_stable (test_retrieval.RetrievalTests.test_ties_are_stable) ... ok\ntest_top1_top5_exact_cosine (test_retrieval.RetrievalTests.test_top1_top5_exact_cosine) ... ok\ntest_zero_state_weight_equals_visual (test_retrieval.RetrievalTests.test_zero_state_weight_equals_visual) ... ok\n\n----------------------------------------------------------------------\nRan 28 tests in 2.999s\n\nOK\n",
+    "skipped": 0
+  }
+}

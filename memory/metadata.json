@@ -1,0 +1,121 @@
+{
+  "alignment": {
+    "dropped_per_trajectory": "first action and last observation",
+    "evidence": "LIBERO scripts/create_dataset.py calls env.step before storing obs",
+    "output": "obs[i] paired with actions[i+1]",
+    "simulator_replay": "UNVERIFIED",
+    "source": "post_action_observation"
+  },
+  "build_seconds": 155.08582358399872,
+  "camera": "agentview_rgb",
+  "cloud_execution": "UNVERIFIED",
+  "dataset_directory_hint": "../data/stage2_1_verified",
+  "dataset_sha256": {
+    "eval_demonstrations.hdf5": "e4bb06adb81c94c86b91ea445ced168531ca1a5cd692c4ef16d04c578335510e",
+    "train_demonstrations.hdf5": "408af740a74682ca93abfdffc61000c1edf75220306ae90e020ad396de65be3d"
+  },
+  "default_weights": {
+    "state_weight": 1.0,
+    "visual_weight": 1.0
+  },
+  "encoder": {
+    "architecture": "resnet18_avgpool",
+    "device": "cpu",
+    "dimension": 512,
+    "dtype": "float32",
+    "frozen": true,
+    "imagenet_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "imagenet_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "preprocessing": "native_opengl HWC uint8 RGB -> rotate180 -> tensor CHW -> resize256 bilinear antialias -> center_crop224 -> /255 -> ImageNet mean/std",
+    "seed": 6758,
+    "torch": "2.7.1",
+    "torchvision": "0.22.1",
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "weights_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth"
+  },
+  "entries": 6193,
+  "feature_combination": "L2([sqrt(visual_weight)*L2(visual), sqrt(state_weight)*L2(zstate)]); zero zstate stays zero",
+  "image_reference": "train_demonstrations.hdf5:/trajectories/{demo_ids[row]}/{camera}[timesteps[row]]",
+  "memory_sha256": "3101de1d81218b0d024b32b04bb6e171b0b1a72b37443c23fb3f485ac4d01fa7",
+  "partitions": {
+    "eval": [
+      "demo_11",
+      "demo_13",
+      "demo_17",
+      "demo_23",
+      "demo_30",
+      "demo_31",
+      "demo_35",
+      "demo_39",
+      "demo_43",
+      "demo_6"
+    ],
+    "train": [
+      "demo_0",
+      "demo_1",
+      "demo_10",
+      "demo_12",
+      "demo_14",
+      "demo_15",
+      "demo_16",
+      "demo_18",
+      "demo_19",
+      "demo_2",
+      "demo_20",
+      "demo_21",
+      "demo_22",
+      "demo_24",
+      "demo_25",
+      "demo_26",
+      "demo_27",
+      "demo_28",
+      "demo_29",
+      "demo_3",
+      "demo_32",
+      "demo_33",
+      "demo_34",
+      "demo_36",
+      "demo_37",
+      "demo_38",
+      "demo_4",
+      "demo_40",
+      "demo_41",
+      "demo_42",
+      "demo_44",
+      "demo_45",
+      "demo_46",
+      "demo_47",
+      "demo_48",
+      "demo_49",
+      "demo_5",
+      "demo_7",
+      "demo_8",
+      "demo_9"
+    ]
+  },
+  "schema_version": "stage2.2-v1",
+  "search": "exact cosine; ties resolved by ascending memory row",
+  "source_sha256": "42189d4415d4c51aaaf0708300653fccc39239cd3f2709079a713cd8d1678a8d",
+  "split_manifest_sha256": "26c9b65c13b4cb005b248d8c6a4949321f22001d76ea366e86cb7f34a0aa8319",
+  "state_normalization": "train frames only, population mean/std; std<1e-6 replaced by 1; no clipping",
+  "success": {
+    "reason": "Official expert demonstrations; writer synthesizes terminal rewards/dones, not success tests",
+    "status": "assumed_expert_provenance_not_verified",
+    "verified_success_count": null
+  },
+  "task": {
+    "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "suite": "libero_object",
+    "task_id": 0,
+    "task_order_index": 0
+  }
+}

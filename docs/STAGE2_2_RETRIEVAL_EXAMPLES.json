@@ -1,0 +1,982 @@
+{
+  "description": "Real CPU queries; representative means selected examples, not performance sampling",
+  "memory_sha256": "3101de1d81218b0d024b32b04bb6e171b0b1a72b37443c23fb3f485ac4d01fa7",
+  "queries": [
+    {
+      "query_demo_id": "demo_11",
+      "query_expert_action": [
+        0.15267857142857144,
+        -0.20089285714285718,
+        -0.0,
+        -0.04285714285714286,
+        0.0,
+        -0.023571428571428573,
+        -1.0
+      ],
+      "query_timestep": 0,
+      "query_trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_11",
+      "visual": {
+        "top1": {
+          "demo_id": "demo_3",
+          "expert_action": [
+            0.23571428571428574,
+            -0.2785714285714286,
+            -0.0,
+            -0.02035714285714286,
+            0.0,
+            -0.0,
+            -1.0
+          ],
+          "image_reference": {
+            "dataset": "/trajectories/demo_3/agentview_rgb",
+            "file": "train_demonstrations.hdf5",
+            "index": 1
+          },
+          "memory_index": 2925,
+          "similarity": 0.9890873432159424,
+          "source_action_index": 2,
+          "state": [
+            -0.14095384868341915,
+            -0.005158117181989787,
+            0.2594860781113766,
+            3.1238918383876366,
+            -0.026153580093264576,
+            -0.10180236712960347,
+            0.03740265400547034,
+            -0.037483838921573205
+          ],
+          "task": {
+            "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+            "suite": "libero_object",
+            "task_id": 0,
+            "task_order_index": 0
+          },
+          "timestep": 1,
+          "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_3"
+        },
+        "top5": [
+          {
+            "demo_id": "demo_3",
+            "expert_action": [
+              0.23571428571428574,
+              -0.2785714285714286,
+              -0.0,
+              -0.02035714285714286,
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_3/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 1
+            },
+            "memory_index": 2925,
+            "similarity": 0.9890873432159424,
+            "source_action_index": 2,
+            "state": [
+              -0.14095384868341915,
+              -0.005158117181989787,
+              0.2594860781113766,
+              3.1238918383876366,
+              -0.026153580093264576,
+              -0.10180236712960347,
+              0.03740265400547034,
+              -0.037483838921573205
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 1,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_3"
+          },
+          {
+            "demo_id": "demo_44",
+            "expert_action": [
+              0.19821428571428573,
+              -0.35625,
+              0.005357142857142857,
+              -0.028928571428571425,
+              -0.0032142857142857142,
+              0.08785714285714287,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_44/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 1
+            },
+            "memory_index": 4583,
+            "similarity": 0.988962709903717,
+            "source_action_index": 2,
+            "state": [
+              -0.14024917535015718,
+              -0.0017678014296090413,
+              0.25007352326083204,
+              3.0900235554357565,
+              0.11071814557908395,
+              -0.10946913501222424,
+              0.03736973072156861,
+              -0.03751682281415495
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 1,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_44"
+          },
+          {
+            "demo_id": "demo_3",
+            "expert_action": [
+              0.28928571428571426,
+              -0.5517857142857143,
+              -0.0,
+              0.0,
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_3/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 4
+            },
+            "memory_index": 2928,
+            "similarity": 0.9886231422424316,
+            "source_action_index": 5,
+            "state": [
+              -0.13270338234468515,
+              -0.01765718936721305,
+              0.25849795959813676,
+              3.116573715876231,
+              -0.030563991582432382,
+              -0.09404164841279679,
+              0.03863378253906704,
+              -0.03881486469767802
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 4,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_3"
+          },
+          {
+            "demo_id": "demo_15",
+            "expert_action": [
+              0.2517857142857143,
+              -0.3803571428571429,
+              0.05625,
+              0.0,
+              0.043928571428571435,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_15/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 5
+            },
+            "memory_index": 805,
+            "similarity": 0.9879689812660217,
+            "source_action_index": 6,
+            "state": [
+              -0.1429087824065039,
+              -0.010623942659711087,
+              0.2624738623985044,
+              3.1308502606290323,
+              -0.025600736827375188,
+              -0.08609593928064882,
+              0.03879048143871361,
+              -0.03890497084103056
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 5,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_15"
+          },
+          {
+            "demo_id": "demo_3",
+            "expert_action": [
+              0.24375000000000005,
+              -0.3803571428571429,
+              -0.0,
+              -0.008571428571428572,
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_3/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 2
+            },
+            "memory_index": 2926,
+            "similarity": 0.9879634380340576,
+            "source_action_index": 3,
+            "state": [
+              -0.1383962075917042,
+              -0.008333704412636686,
+              0.25916153531937214,
+              3.1209320749099283,
+              -0.02727553717293349,
+              -0.09903808478055336,
+              0.03807820800014264,
+              -0.03817525483269153
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 2,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_3"
+          }
+        ]
+      },
+      "visual_state": {
+        "top1": {
+          "demo_id": "demo_33",
+          "expert_action": [
+            0.03482142857142857,
+            -0.02142857142857143,
+            0.07767857142857143,
+            -0.005357142857142857,
+            0.04285714285714286,
+            0.005357142857142857,
+            -1.0
+          ],
+          "image_reference": {
+            "dataset": "/trajectories/demo_33/agentview_rgb",
+            "file": "train_demonstrations.hdf5",
+            "index": 0
+          },
+          "memory_index": 3221,
+          "similarity": 0.9794979691505432,
+          "source_action_index": 1,
+          "state": [
+            -0.148501620498469,
+            -0.012181644771244086,
+            0.2676508137794635,
+            3.126120954228466,
+            -0.053074647761191945,
+            -0.10542044341765922,
+            0.03621221019504783,
+            -0.036245525310582956
+          ],
+          "task": {
+            "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+            "suite": "libero_object",
+            "task_id": 0,
+            "task_order_index": 0
+          },
+          "timestep": 0,
+          "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_33"
+        },
+        "top5": [
+          {
+            "demo_id": "demo_33",
+            "expert_action": [
+              0.03482142857142857,
+              -0.02142857142857143,
+              0.07767857142857143,
+              -0.005357142857142857,
+              0.04285714285714286,
+              0.005357142857142857,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_33/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 0
+            },
+            "memory_index": 3221,
+            "similarity": 0.9794979691505432,
+            "source_action_index": 1,
+            "state": [
+              -0.148501620498469,
+              -0.012181644771244086,
+              0.2676508137794635,
+              3.126120954228466,
+              -0.053074647761191945,
+              -0.10542044341765922,
+              0.03621221019504783,
+              -0.036245525310582956
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 0,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_33"
+          },
+          {
+            "demo_id": "demo_27",
+            "expert_action": [
+              0.33482142857142855,
+              -0.4285714285714286,
+              0.13660714285714284,
+              -0.008571428571428572,
+              0.0,
+              -0.015000000000000001,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_27/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 0
+            },
+            "memory_index": 2462,
+            "similarity": 0.9789839386940002,
+            "source_action_index": 1,
+            "state": [
+              -0.1392312449765618,
+              -0.024678746672835882,
+              0.2505181997102341,
+              3.1120412600006655,
+              0.013827397952425522,
+              -0.10151556613147941,
+              0.03612443929724368,
+              -0.036290681401164586
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 0,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_27"
+          },
+          {
+            "demo_id": "demo_16",
+            "expert_action": [
+              0.0,
+              -0.010714285714285714,
+              -0.0,
+              -0.028928571428571425,
+              0.045,
+              0.013928571428571429,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_16/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 0
+            },
+            "memory_index": 953,
+            "similarity": 0.9776345491409302,
+            "source_action_index": 1,
+            "state": [
+              -0.1503338668630105,
+              0.0037267174294176963,
+              0.25223093375470657,
+              3.112155749396897,
+              0.03804694609051624,
+              -0.10178355325876229,
+              0.03620792410323012,
+              -0.03624987080083357
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 0,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_16"
+          },
+          {
+            "demo_id": "demo_47",
+            "expert_action": [
+              0.21696428571428572,
+              0.0,
+              0.08571428571428572,
+              -0.075,
+              0.03321428571428571,
+              -0.009642857142857144,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_47/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 1
+            },
+            "memory_index": 5068,
+            "similarity": 0.9773038625717163,
+            "source_action_index": 2,
+            "state": [
+              -0.1493869981541003,
+              -0.0014288697456574582,
+              0.2545612017514033,
+              3.1144317043937986,
+              -0.05860970955524283,
+              -0.13451723718604386,
+              0.03743695238381382,
+              -0.03746268262848245
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 1,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_47"
+          },
+          {
+            "demo_id": "demo_3",
+            "expert_action": [
+              0.22767857142857142,
+              -0.23303571428571432,
+              -0.0,
+              -0.02035714285714286,
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_3/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 0
+            },
+            "memory_index": 2924,
+            "similarity": 0.9769964218139648,
+            "source_action_index": 1,
+            "state": [
+              -0.1432530107326762,
+              -0.002578986149587877,
+              0.2597945037159831,
+              3.126774286525359,
+              -0.0252202549511616,
+              -0.10460827662614598,
+              0.03619013096011603,
+              -0.03625597202930323
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 0,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_3"
+          }
+        ]
+      }
+    },
+    {
+      "query_demo_id": "demo_31",
+      "query_expert_action": [
+        0.08035714285714286,
+        -0.7660714285714286,
+        -0.06964285714285715,
+        0.03642857142857143,
+        -0.005357142857142857,
+        -0.008571428571428572,
+        -1.0
+      ],
+      "query_timestep": 19,
+      "query_trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_31",
+      "visual": {
+        "top1": {
+          "demo_id": "demo_5",
+          "expert_action": [
+            0.048214285714285716,
+            -0.8142857142857143,
+            -0.09375,
+            0.024642857142857143,
+            -0.004285714285714286,
+            -0.0,
+            -1.0
+          ],
+          "image_reference": {
+            "dataset": "/trajectories/demo_5/agentview_rgb",
+            "file": "train_demonstrations.hdf5",
+            "index": 17
+          },
+          "memory_index": 5576,
+          "similarity": 0.9922525882720947,
+          "source_action_index": 18,
+          "state": [
+            -0.08611808164863681,
+            -0.14008606946813495,
+            0.27477348690654013,
+            3.133260192488578,
+            -0.027434897148979443,
+            -0.0379169612908471,
+            0.03917065549730453,
+            -0.03951166720614607
+          ],
+          "task": {
+            "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+            "suite": "libero_object",
+            "task_id": 0,
+            "task_order_index": 0
+          },
+          "timestep": 17,
+          "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_5"
+        },
+        "top5": [
+          {
+            "demo_id": "demo_5",
+            "expert_action": [
+              0.048214285714285716,
+              -0.8142857142857143,
+              -0.09375,
+              0.024642857142857143,
+              -0.004285714285714286,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_5/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 17
+            },
+            "memory_index": 5576,
+            "similarity": 0.9922525882720947,
+            "source_action_index": 18,
+            "state": [
+              -0.08611808164863681,
+              -0.14008606946813495,
+              0.27477348690654013,
+              3.133260192488578,
+              -0.027434897148979443,
+              -0.0379169612908471,
+              0.03917065549730453,
+              -0.03951166720614607
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 17,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_5"
+          },
+          {
+            "demo_id": "demo_24",
+            "expert_action": [
+              0.13392857142857142,
+              -0.8812500000000001,
+              -0.13660714285714284,
+              0.043928571428571435,
+              0.002142857142857143,
+              -0.005357142857142857,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_24/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 22
+            },
+            "memory_index": 2031,
+            "similarity": 0.9912518858909607,
+            "source_action_index": 23,
+            "state": [
+              -0.1295202860303954,
+              -0.13666471390872098,
+              0.25991588096931745,
+              3.187451990540488,
+              -0.014886879513021908,
+              -0.1272633256922419,
+              0.03938050776373909,
+              -0.039558099664837025
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 22,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_24"
+          },
+          {
+            "demo_id": "demo_41",
+            "expert_action": [
+              0.10178571428571428,
+              -0.8464285714285713,
+              -0.058928571428571434,
+              0.026785714285714288,
+              0.0,
+              -0.005357142857142857,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_41/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 16
+            },
+            "memory_index": 4289,
+            "similarity": 0.9908566474914551,
+            "source_action_index": 17,
+            "state": [
+              -0.06573441880815434,
+              -0.14183491369903145,
+              0.27491968206175804,
+              3.124597994269281,
+              0.027910460260335074,
+              0.022523235102320488,
+              0.039135556940289425,
+              -0.039483571931260356
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 16,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_41"
+          },
+          {
+            "demo_id": "demo_4",
+            "expert_action": [
+              0.15803571428571428,
+              -0.7875,
+              -0.0,
+              0.008571428571428572,
+              0.0,
+              -0.035357142857142865,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_4/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 13
+            },
+            "memory_index": 3998,
+            "similarity": 0.9902928471565247,
+            "source_action_index": 14,
+            "state": [
+              -0.0972873212860389,
+              -0.148997192335351,
+              0.2701301394188008,
+              3.1248117083718,
+              -0.03200261345128134,
+              -0.0515935077170253,
+              0.039044927196602214,
+              -0.0393677935377705
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 13,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_4"
+          },
+          {
+            "demo_id": "demo_5",
+            "expert_action": [
+              0.02142857142857143,
+              -0.6964285714285715,
+              -0.1392857142857143,
+              0.0064285714285714285,
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_5/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 18
+            },
+            "memory_index": 5577,
+            "similarity": 0.9897142052650452,
+            "source_action_index": 19,
+            "state": [
+              -0.08570368107238417,
+              -0.15120368822444907,
+              0.273522527232459,
+              3.136720202738464,
+              -0.026898534546942132,
+              -0.03609698704280148,
+              0.03919822587894563,
+              -0.03954052969933787
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 18,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_5"
+          }
+        ]
+      },
+      "visual_state": {
+        "top1": {
+          "demo_id": "demo_19",
+          "expert_action": [
+            0.24375000000000005,
+            -0.9267857142857143,
+            -0.0,
+            0.061071428571428575,
+            0.0,
+            -0.0,
+            -1.0
+          ],
+          "image_reference": {
+            "dataset": "/trajectories/demo_19/agentview_rgb",
+            "file": "train_demonstrations.hdf5",
+            "index": 15
+          },
+          "memory_index": 1273,
+          "similarity": 0.9878554940223694,
+          "source_action_index": 16,
+          "state": [
+            -0.09783476038270275,
+            -0.15378477032121524,
+            0.27836958586571886,
+            3.181247005195108,
+            0.0394001053609931,
+            -0.0843882895017329,
+            0.03909308062338542,
+            -0.03946884073198008
+          ],
+          "task": {
+            "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+            "suite": "libero_object",
+            "task_id": 0,
+            "task_order_index": 0
+          },
+          "timestep": 15,
+          "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_19"
+        },
+        "top5": [
+          {
+            "demo_id": "demo_19",
+            "expert_action": [
+              0.24375000000000005,
+              -0.9267857142857143,
+              -0.0,
+              0.061071428571428575,
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_19/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 15
+            },
+            "memory_index": 1273,
+            "similarity": 0.9878554940223694,
+            "source_action_index": 16,
+            "state": [
+              -0.09783476038270275,
+              -0.15378477032121524,
+              0.27836958586571886,
+              3.181247005195108,
+              0.0394001053609931,
+              -0.0843882895017329,
+              0.03909308062338542,
+              -0.03946884073198008
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 15,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_19"
+          },
+          {
+            "demo_id": "demo_19",
+            "expert_action": [
+              0.21160714285714283,
+              -0.8651785714285715,
+              -0.04285714285714286,
+              0.05035714285714285,
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_19/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 17
+            },
+            "memory_index": 1275,
+            "similarity": 0.9870206713676453,
+            "source_action_index": 18,
+            "state": [
+              -0.09285397050413628,
+              -0.17815990832184278,
+              0.27741877450744484,
+              3.1957037899690004,
+              0.041095543933627875,
+              -0.07778889220267808,
+              0.03915433768319884,
+              -0.03952811924799582
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 17,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_19"
+          },
+          {
+            "demo_id": "demo_19",
+            "expert_action": [
+              0.21964285714285717,
+              -0.9107142857142857,
+              -0.010714285714285714,
+              0.05785714285714285,
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_19/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 16
+            },
+            "memory_index": 1274,
+            "similarity": 0.9869191646575928,
+            "source_action_index": 17,
+            "state": [
+              -0.09526780895875647,
+              -0.1660508536256037,
+              0.27791784080979876,
+              3.1887693510462958,
+              0.04020686337336363,
+              -0.08095205305490227,
+              0.0391239507422489,
+              -0.03949955719817473
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 16,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_19"
+          },
+          {
+            "demo_id": "demo_19",
+            "expert_action": [
+              0.2491071428571429,
+              -0.9375,
+              -0.0,
+              0.06964285714285715,
+              0.0032142857142857142,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_19/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 14
+            },
+            "memory_index": 1272,
+            "similarity": 0.9856603145599365,
+            "source_action_index": 15,
+            "state": [
+              -0.10045315630332878,
+              -0.14152963221562825,
+              0.2788168508352052,
+              3.1728680349788703,
+              0.03872443042582994,
+              -0.08749968030868617,
+              0.03906137621305872,
+              -0.03943620110539091
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 14,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_19"
+          },
+          {
+            "demo_id": "demo_19",
+            "expert_action": [
+              0.19821428571428573,
+              -0.7714285714285715,
+              -0.07767857142857143,
+              0.03642857142857143,
+              0.0,
+              -0.0,
+              -1.0
+            ],
+            "image_reference": {
+              "dataset": "/trajectories/demo_19/agentview_rgb",
+              "file": "train_demonstrations.hdf5",
+              "index": 18
+            },
+            "memory_index": 1276,
+            "similarity": 0.9854795932769775,
+            "source_action_index": 19,
+            "state": [
+              -0.09056254673789615,
+              -0.1899293521240187,
+              0.2767108360666585,
+              3.202104169086804,
+              0.0421451017050571,
+              -0.07511844555219531,
+              0.03918455902148257,
+              -0.039554323934594945
+            ],
+            "task": {
+              "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+              "suite": "libero_object",
+              "task_id": 0,
+              "task_order_index": 0
+            },
+            "timestep": 18,
+            "trajectory_id": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket/demo_19"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "device": "cpu",
+    "heldout_trajectories": 10,
+    "interpretation": "Retrieval diagnostics only; no success rate or policy intervention",
+    "leaked_neighbors": 0,
+    "memory_entries": 6193,
+    "memory_sha256": "3101de1d81218b0d024b32b04bb6e171b0b1a72b37443c23fb3f485ac4d01fa7",
+    "queries": 1565,
+    "seconds": 35.80776450000121,
+    "state_weight": 1.0,
+    "visual": {
+      "mean_top1_action_absolute_error": 0.1010934993805829,
+      "mean_top1_cosine": 0.9880080113014855
+    },
+    "visual_state": {
+      "mean_top1_action_absolute_error": 0.0960647127860729,
+      "mean_top1_cosine": 0.9648515991128672
+    },
+    "visual_weight": 1.0
+  }
+}

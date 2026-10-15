@@ -21,3 +21,8 @@ results/smoke/*.mp4
 data/
 
 .venv-stage2/
+
+# Generated Stage 2.2 memory (metadata remains reviewable)
+memory/demo_memory.npz
+memory/heldout_retrieval.json
+.venv-stage2_2/

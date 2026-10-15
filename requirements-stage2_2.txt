@@ -1,0 +1,4 @@
+-r requirements-stage2.txt
+# On Linux CUDA install these from the cu126 index first (see notebook).
+torch==2.7.1
+torchvision==0.22.1
