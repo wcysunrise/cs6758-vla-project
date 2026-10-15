@@ -1,0 +1,7 @@
+{
+  "episodes": 5,
+  "csv_trace_video_hash_consistent": true,
+  "all_videos_fully_decoded": true,
+  "evaluation_source_ast_matches_executed": true,
+  "config_bytes_match_executed": true
+}

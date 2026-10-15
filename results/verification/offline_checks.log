@@ -1,0 +1,9 @@
+test_csv_rejects_duplicate_and_keeps_first_record (test_baseline.ProtocolTests) ... ok
+test_invalid_protocol_is_rejected (test_baseline.ProtocolTests) ... ok
+test_smoke_excluded_from_evaluation (test_baseline.ProtocolTests) ... ok
+test_smoke_gate_rejects_modified_video_or_config (test_baseline.ProtocolTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.007s
+
+OK
