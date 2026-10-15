@@ -1,0 +1,29 @@
+{
+  "policy": {
+    "repo_id": "HuggingFaceVLA/smolvla_libero",
+    "revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+    "device": "cuda",
+    "dtype": "float32",
+    "n_action_steps": 1,
+    "num_steps": 10
+  },
+  "environment": {
+    "suite": "libero_object",
+    "task_id": 0,
+    "task_order_index": 0,
+    "expected_task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "image_size": 256,
+    "max_steps": 280,
+    "settle_steps": 10,
+    "control_mode": "relative",
+    "mujoco_gl": "egl"
+  },
+  "evaluation": {
+    "episodes": 5,
+    "seed": 1000,
+    "initial_state_start": 0,
+    "video_fps": 20,
+    "output_dir": "results",
+    "max_wall_time_seconds": 1800
+  }
+}
