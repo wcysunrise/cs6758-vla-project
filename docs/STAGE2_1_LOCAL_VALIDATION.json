@@ -1,0 +1,61 @@
+{
+  "action_max": [
+    0.7794642857142858,
+    0.8544642857142859,
+    0.9375,
+    0.16607142857142856,
+    0.22500000000000003,
+    0.12642857142857145,
+    1.0
+  ],
+  "action_min": [
+    -0.7928571428571429,
+    -0.9375,
+    -0.9375,
+    -0.10285714285714286,
+    -0.16928571428571426,
+    -0.3096428571428571,
+    -1.0
+  ],
+  "cloud_execution": "UNVERIFIED",
+  "exact_source_output_comparison_trajectories": 50,
+  "execution_environment": "local macOS; real native HDF5; no simulator or GPU",
+  "gcs_export": "UNVERIFIED",
+  "output_bytes": {
+    "eval_demonstrations.hdf5": 87690188,
+    "train_demonstrations.hdf5": 348100350
+  },
+  "output_sha256": {
+    "eval_demonstrations.hdf5": "e4bb06adb81c94c86b91ea445ced168531ca1a5cd692c4ef16d04c578335510e",
+    "train_demonstrations.hdf5": "408af740a74682ca93abfdffc61000c1edf75220306ae90e020ad396de65be3d"
+  },
+  "partition_statistics": {
+    "eval": {
+      "steps": 1565,
+      "trajectories": 10
+    },
+    "train": {
+      "steps": 6193,
+      "trajectories": 40
+    }
+  },
+  "simulator_replay": "UNVERIFIED",
+  "source_bytes": 780145352,
+  "source_sha256": "42189d4415d4c51aaaf0708300653fccc39239cd3f2709079a713cd8d1678a8d",
+  "source_statistics": {
+    "length_max": 196,
+    "length_mean": 156.16,
+    "length_min": 136,
+    "trajectories": 50,
+    "valid_steps": 7808,
+    "valid_trajectories": 50
+  },
+  "source_unchanged": true,
+  "stage1_tracked_files_unchanged": true,
+  "unit_tests": {
+    "log": "test_csv_rejects_duplicate_and_keeps_first_record (test_baseline.ProtocolTests.test_csv_rejects_duplicate_and_keeps_first_record) ... ok\ntest_invalid_protocol_is_rejected (test_baseline.ProtocolTests.test_invalid_protocol_is_rejected) ... ok\ntest_smoke_excluded_from_evaluation (test_baseline.ProtocolTests.test_smoke_excluded_from_evaluation) ... ok\ntest_smoke_gate_rejects_modified_video_or_config (test_baseline.ProtocolTests.test_smoke_gate_rejects_modified_video_or_config) ... ok\ntest_duplicate_trajectory_rejected (test_demonstrations.DemonstrationTests.test_duplicate_trajectory_rejected) ... ok\ntest_missing_modality_fails_or_quarantines (test_demonstrations.DemonstrationTests.test_missing_modality_fails_or_quarantines) ... ok\ntest_nan_length_dtype_and_short_episode_rejected (test_demonstrations.DemonstrationTests.test_nan_length_dtype_and_short_episode_rejected) ... ok\ntest_notebook_schema_and_python_cells (test_demonstrations.DemonstrationTests.test_notebook_schema_and_python_cells) ... ok\ntest_output_corruption_detected (test_demonstrations.DemonstrationTests.test_output_corruption_detected) ... ok\ntest_roundtrip_alignment_and_preservation (test_demonstrations.DemonstrationTests.test_roundtrip_alignment_and_preservation) ... ok\ntest_split_order_independent_and_disjoint (test_demonstrations.DemonstrationTests.test_split_order_independent_and_disjoint) ... ok\ntest_unverified_source_requires_explicit_opt_in (test_demonstrations.DemonstrationTests.test_unverified_source_requires_explicit_opt_in) ... ok\ntest_wrong_task_or_controller_rejected (test_demonstrations.DemonstrationTests.test_wrong_task_or_controller_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.187s\n\nOK\n",
+    "returncode": 0
+  },
+  "v100_preflight": "UNVERIFIED",
+  "verified_success_count": null
+}

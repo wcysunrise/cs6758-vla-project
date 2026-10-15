@@ -16,3 +16,8 @@ results/*.mp4
 results/smoke/*.mp4
 !results/episode_00[1-5].mp4
 !results/smoke/episode_006.mp4
+
+# Stage 2 source demonstrations and generated outputs
+data/
+
+.venv-stage2/

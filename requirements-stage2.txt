@@ -1,0 +1,6 @@
+# CPU extraction; independent of Stage 1's simulation environment.
+numpy==2.2.6
+h5py==3.14.0
+huggingface-hub==0.35.3
+PyYAML==6.0.2
+nbformat==5.10.4
